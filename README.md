@@ -1,3 +1,3 @@
-<h1><Projekt><h1>/n
-Név: Szabotin Erik /n
+Projekt 
+Név: Szabotin Erik 
 Neptunkod:V4XBUU
