@@ -54,3 +54,9 @@ Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fonto
 ## 5. Felhasználói felület és munkafolyamat
 
 A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópult**, itt álithatja be a kutató/felhasználó a pálya méretét, dobozok számát, robotok számát és az algoritmust. A második a **Szimulációs nézet**, amely megjeleníti a 2D-s pályát illetve a dobozokat és a célt. A nézet oldalsó sávjában látható az idő, lépésszám, elért jutalmak száma.
+
+## 6. Nem funkcionális követelmények
+
+| Követelmény | Ellenőrzés módja |
+| --- | --- |
+| Kliens szerver kommunikáció késleltetése vizuális módban | WebSockets használata esetén a lépésfrissités vizualizációja folyamatos (min.30 fps) |
