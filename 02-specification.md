@@ -29,3 +29,11 @@ project_outline: "[[00-project/01-project-outline.md]]"
 - **Hibafolyamatok:** Ha egy robot át ptobál kaladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
 - **Utófeltétel:** A kisérleti eredmények (sikeresség, idő/megtett út, kommunikációs napló) eltárolásra kerülnek és exportálhatók.
 
+## 3. Funkcionális követelmények
+
+| Követelmény | Elfogadási kritérium | Prioritás |
+| --- | --- | --- |
+| A rendszer képes 2D-s pálya generálására | A kezdetben megadott paraméterek alapján generált pálya tartalmat kezdőpontot akadályokat és cél mezőt. | Kötelező |
+| Robot akcióterének megadása | A robot képes legyen 4 irányba mozogni az elmozdítható dobozokat eltolni illetve a többi robotnak üzenetet köldeni | kötelező |
+| Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően küldhetne, fogadhatnak és lehalgathatnak üzeneteket. | kötelező |
+|  |  |  |
