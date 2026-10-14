@@ -31,4 +31,6 @@ Szimulációs környezetben a robotok tárgyakat tudnak mozgatni és ezzel felad
 - Kommunikációs csatorna fizikai megvalósítása (Pl. jelzavarás figyelembe vétele)
 - 3D-s megjelenítés
 
+## Jegyzetek
 
+A kezdeti fázisban a fókusz a fizikai/logikai elemek elkészítése és az álapotváltozások megfigyelhetősége lesz. Amikor a rendszer már stabil vizsgálhatunk majd vele hozáadott kommunikácioval dobozrendezési feladatokat, akadályok elkerülésének megoldásait. Az egyedileg paraméterezhető pályák alkalmasak lesznek a robotok képeségeinek kiértékelésére.
