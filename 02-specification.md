@@ -42,3 +42,12 @@ project_outline: "[[00-project/01-project-outline.md]]"
 | Vizuális megjelenítés valós időben | A felhasználó valós időben látja a 2D s pályán a robotokat. | Ajánlott |
 Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fontos; **Lehetséges** = idő esetén opcionális.
 
+## 4. Üzleti szabályok és korlátok
+
+| Szabály vagy korlát | Indoklás |
+| --- | --- |
+| Addatok szeparálása tanulás és tesztelés között | Megakadályozza a modellek tultanulását és validálja az általánosítóképességet. |
+| Tér és idő | Az MI modellek számára kezelhető méretű és elrendetésű pálya és elegendő idő a feladatvégzésre |
+| Determinisztikus környezeti átmenetek | Bár a robotok lépései lehetnek véletlenszerüek de egy irányba elmozdulás mindig ugyanazt a fizikai eredményt kell hozza |
+| Hardver komunikációs réteg kihagyása | A feladat központjában a *döntéshozatal* áll nem a hálózatbiztonság vagy a fizikai zavarás |
+
