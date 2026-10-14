@@ -26,3 +26,9 @@ Szimulációs környezetben a robotok tárgyakat tudnak mozgatni és ezzel felad
 - Két eltérő döntési/tanulási megközelítés összehasonlítása
 
 ### Nincs benne a hatókörben
+
+- Valós fizikai robotok és hardveres integráció
+- Kommunikációs csatorna fizikai megvalósítása (Pl. jelzavarás figyelembe vétele)
+- 3D-s megjelenítés
+
+
