@@ -73,3 +73,7 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 | A kommunikációs tér túl nagyra nőhet | Lehetetlenné teszi a robotok tanulását | Korlátozott diszkrét "szótár" előre megadott 4-8 lehetséges üzenet bevezetése a szöveges kommunikáció helyett |
 
 ## 8. Kezdeti technikai javaslat
+
+### Javasolt megoldás
+
+A rendszer magja Phyton szimulációs környezet amely a PettingZoo szabványra épül. Ebbe fut a térkép generálása és a robotok betanítása. A vizualizáció úgy történik, hogy a Phyton motor elmenti a kísérlet eredményeit és a lépések sorozatát amit a weboldalon utolag le tud játszani.
