@@ -40,6 +40,7 @@ project_outline: "[[00-project/01-project-outline.md]]"
 | Legalább két algoritmus csatlakoztatása | A rendszer képes  egy tanuláson alapuló és egy klasszikus útkereső robotot futtatni. | kötelető |
 | Kísérleti adatok exportálása | A kisérlet végén a kommunikácios napló és a sikerességi ráta letölthető. | kötelező |
 | Vizuális megjelenítés valós időben | A felhasználó valós időben látja a 2D s pályán a robotokat. | Ajánlott |
+
 Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fontos; **Lehetséges** = idő esetén opcionális.
 
 ## 4. Üzleti szabályok és korlátok
