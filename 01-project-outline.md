@@ -13,4 +13,5 @@ Szimulációs környezetben a robotok tárgyakat tudnak mozgatni és ezzel felad
 
 - **ElsŐdleges Cél:** Teljesen autonóm, megfigyelhető, paraméterezhető és interaktív szimulációs környezet alkotása
 - **Célfelhasználók / érintettek:** Programozható illetve MI által vezérelt robotok tesztelése/kutatása
-- **Mérhető sikerkritériumok:**
+- **Mérhető sikerkritériumok:** A felhasználó sikeresen tudjon 2D-s pályát generálni, hiba nélkül tudjuk lefutatni a szimúláciot(PL:dobozok mozgathatóak), a rendszer legalább kettö tanulási/döntési feladatok mérése és összehasonlítása
+- **Korlátok:** Reprodukálható teszt generálása(Pályákat felhasználó álítja be); robotok közti komunikáció lehalgatása; a robotok és az akciótér megfigyelése
