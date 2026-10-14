@@ -62,3 +62,8 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 | Szabványos MI API kompatibilitás | A környezet implementálja a Gymnasium (korábban OpenAI Gym) vagy PettingZoo (Multi-Agent) interfészt. |
 | Kliens szerver kommunikáció késleltetése vizuális módban | WebSockets használata esetén a lépésfrissités vizualizációja folyamatos (min.30 fps) |
 | Moduláris kódarchitechtúra | Új felafattípus hozzáadása az alap motor modosítása nélkül (Pl. Összedolgozó robotok helyett versengők legyenek) |
+
+## 7. Nyitott kérdések és kockázatok
+| Kérdés/kockázat | Hatás | Feloldás/döntés |
+| --- | --- | --- |
+| A gépi tanulási algoritmusok betanításí ideje túl hosszú | Befojásolja a kísérlet iterációs sebességét | Egyszerűsített környezet és gyakori jutalmazás használata |
