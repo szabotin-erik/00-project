@@ -77,3 +77,10 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 ### Javasolt megoldás
 
 A rendszer magja Phyton szimulációs környezet amely a PettingZoo szabványra épül. Ebbe fut a térkép generálása és a robotok betanítása. A vizualizáció úgy történik, hogy a Phyton motor elmenti a kísérlet eredményeit és a lépések sorozatát amit a weboldalon utolag le tud játszani.
+
+### Megvalósíthatóság és technikai kockázatok
+
+| Kockázat/feltételezés | A korai fázisra tervezett validáció | Tartalék megközelítés |
+| --- | --- | --- |
+| A backend és a frontend közötti kapcsolat túl lassú az MI számára | Szimuláció futása aszinkron módón | Az élő kapcsolat elhagyása, az MI lefut utána álapotot ment és a webes delületen csak lejátsza a történést |
+| A robotok nem tanulják meg a kollaboratív feladatmegoldást(pl doboz együtt tolása) |  |  |
