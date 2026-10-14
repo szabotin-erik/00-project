@@ -83,4 +83,4 @@ A rendszer magja Phyton szimulációs környezet amely a PettingZoo szabványra 
 | Kockázat/feltételezés | A korai fázisra tervezett validáció | Tartalék megközelítés |
 | --- | --- | --- |
 | A backend és a frontend közötti kapcsolat túl lassú az MI számára | Szimuláció futása aszinkron módón | Az élő kapcsolat elhagyása, az MI lefut utána álapotot ment és a webes delületen csak lejátsza a történést |
-| A robotok nem tanulják meg a kollaboratív feladatmegoldást(pl doboz együtt tolása) |  |  |
+| A robotok nem tanulják meg a kollaboratív feladatmegoldást(pl doboz együtt tolása) | Kisérlet nagyon kis méretű pályán való validálása egyszerű szabályokkal | A feladatok leegyszerüsítése vagy a hagyományos algoritmusok használata tanulás helyett |
