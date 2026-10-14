@@ -69,3 +69,4 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 | --- | --- | --- |
 | A gépi tanulási algoritmusok betanításí ideje túl hosszú | Befojásolja a kísérlet iterációs sebességét | Egyszerűsített környezet és gyakori jutalmazás használata |
 | A kliens és a tanuló algoritmusok összekötése nehéz lehet | Befolyásolja a teszt stabilitását | A szimuláció és a tanulás is úgyanazon a nyelven működik. A webes felület csak megjelenítí a generált naplófájlokat vagy webSocketen át nézőként csatlakozik |
+| A kommunikációs tér túl nagyra nőhet | Lehetetlenné teszi a robotok tanulását |  |
