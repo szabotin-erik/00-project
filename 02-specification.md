@@ -2,7 +2,7 @@
 project_outline: "[[00-project/01-project-outline.md]]"
 ---
 
-# Autunóm roboto szimulációs rendszer
+# Autunóm robotos szimulációs rendszer
 
 ## Szerepkörök és Jogosultságok
 
