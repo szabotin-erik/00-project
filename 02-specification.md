@@ -26,7 +26,7 @@ project_outline: "[[00-project/01-project-outline.md]]"
 6. Valós időben megjelennek a lépések.
 7. A rendszer folyamatosan naplózza az álapotot a komunikációt és a jutalmakat.
 8. A feladat elvégzésekor vagy az időkorlát elérésekor befejetődik a szimuláció.
-- **Hibafolyamatok:** Ha egy robot át ptobál kaladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
+- **Hibafolyamatok:** Ha egy robot át ptobál haladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
 - **Utófeltétel:** A kisérleti eredmények (sikeresség, idő/megtett út, kommunikációs napló) eltárolásra kerülnek és exportálhatók.
 
 ## 3. Funkcionális követelmények
