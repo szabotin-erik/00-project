@@ -1,7 +1,7 @@
 ---
 project_outline: "[[00-project/01-project-outline]]"
 ---
-<!-- 5xl -->
+
 # Többrobotos autonóm feladatmegoldás vizsgálata szimulált környezetben
 
 Szerző: Szabotin Erik
