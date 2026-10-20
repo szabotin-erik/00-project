@@ -11,14 +11,19 @@ Projektazonosító: 2026-ST-03
 
 ## Probléma
 
-- **Fizikai megvalósítás nehézségei:** Ha valós fizikai robotokkal szerettnénk algoritmusokat és MI ágenseket tesztelni az kölcséges és lassú lenne plusz hardveres meghibásodás torzithatja a vizygálat eredményeit
-- **Reprodukálhatóság:** Valós környezetben a fizikai tényezők befolyásolhatják a teszt kimenetelét
-- **Döntéshozatal megfigyelése:** Robotok interakciojának és kommunikációjának kiértékelése
-- **Összehasonlíthatóság:** Az útkereső algoritmusok és a gépi tanulásra épülő modellek teljesítményének mérése azonos paraméterek mellet
+- **Fizikai megvalósítás nehézségei:** Ha valós fizikai robotokkal szerettnénk algoritmusokat és MI ágenseket tesztelni az kölcséges és lassú lenne plusz hardveres meghibásodás torzithatja a vizygálat eredményeit.
+- **Reprodukálhatóság:** Valós környezetben a fizikai tényezők befolyásolhatják a teszt kimenetelét.
+- **Döntéshozatal megfigyelése:** Robotok interakciojának és kommunikációjának kiértékelése.
+- **Összehasonlíthatóság:** Az útkereső algoritmusok és a gépi tanulásra épülő modellek teljesítményének mérése azonos paraméterek mellet.
 
 ## Célfelhasználók
 
 1. **Kutató / Felhasználó**
 
-- **Cél:** Kísérletek konfigurálása és indítása robotok vizselkedésének és sikerességének vizsgálata
-- **Feladatok:** 2D pálya mérete, akadályok helye illetve a start és cál mezők elhelyezése. Eredmények kiértékelése
+- **Cél:** Kísérletek konfigurálása és indítása robotok vizselkedésének és sikerességének vizsgálata.
+- **Feladatok:** 2D pálya mérete, akadályok helye illetve a start és cál mezők elhelyezése. Eredmények kiértékelése.
+
+2. **Robot**
+ 
+- **Cél:** A feladat elvégzése emberi beavatkozás nélkül.
+- **Képességek:** Környezet feltérképezése, akadályok érzékelése, tárgyak mozgatása és kommunikáció a többi robottal ("szótár").
