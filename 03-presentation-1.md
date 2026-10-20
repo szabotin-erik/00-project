@@ -55,8 +55,15 @@ Projektazonosító: 2026-ST-03
 - A szabályok szigorú vizsgálata, büntetőpontok és jutalmak
 - lépésszám jutalmak és a hátra lévő idő folyamatos frissítése/megjelenítése
 
-3. **Adatkinyerés:**
+3. **Adatkinyerés**
 
 - A feladat sikeres elvégzése, határidő lejártakor szimuláció lezárása
 - Az állapotváltozások, a kommunikácós napló exportálása
+
+## Következő lépések és Technikai tervek
+
+- **Szabványosítás:** Könnyen lehessen szabványos MI modelleket csatlakoztatni hozzá
+- **Vizualizációs kapcsolat kiépítése:** Webes felületen való megjelenítés
+- **Kommunikációs csatorna:** Annak érdekében hogy a tanulás ideje belátható maradjon diszkrét "szótár" használata
+
 
