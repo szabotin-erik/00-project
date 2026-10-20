@@ -16,4 +16,9 @@ Projektazonosító: 2026-ST-03
 - **Döntéshozatal megfigyelése:** Robotok interakciojának és kommunikációjának kiértékelése
 - **Összehasonlíthatóság:** Az útkereső algoritmusok és a gépi tanulásra épülő modellek teljesítményének mérése azonos paraméterek mellet
 
-##
+## Célfelhasználók
+
+1. **Kutató / Felhasználó**
+
+- **Cél:** Kísérletek konfigurálása és indítása robotok vizselkedésének és sikerességének vizsgálata
+- **Feladatok:** 2D pálya mérete, akadályok helye illetve a start és cál mezők elhelyezése. Eredmények kiértékelése
