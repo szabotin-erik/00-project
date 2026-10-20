@@ -35,7 +35,7 @@ project_outline: "[[00-project/01-project-outline.md]]"
 | --- | --- | --- |
 | A rendszer képes 2D-s pálya generálására | A kezdetben megadott paraméterek alapján generált pálya tartalmat kezdőpontot akadályokat és cél mezőt | Kötelező |
 | Robot akcióterének megadása | A robot képes legyen 4 irányba mozogni az elmozdítható dobozokat eltolni illetve a többi robotnak üzenetet köldeni | kötelező |
-| Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően küldhetne, fogadhatnak és lehalgathatnak üzeneteket | kötelező |
+| Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően küldhetnek, fogadhatnak és lehalgathatnak üzeneteket | kötelező |
 | Ütközések és érvénytelen lépések kezelése | A robotok nem lehetnek egyszerre ugyanazon a mezőn, a falakon nem mehetnek keresztül | kötelező |
 | Legalább két algoritmus csatlakoztatása | A rendszer képes  egy tanuláson alapuló és egy klasszikus útkereső robotot futtatni | kötelető |
 | Kísérleti adatok exportálása | A kisérlet végén a kommunikácios napló és a sikerességi ráta letölthető. | kötelező |
