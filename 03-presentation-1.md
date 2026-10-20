@@ -41,3 +41,4 @@ Projektazonosító: 2026-ST-03
 
 - Valós fizikai robotokal történő tesztelés
 - Kommunikácios csatorna fizikai jeltorzításának, zavarásának szimulálása
+- 3D-s grafikus megjelenítés
