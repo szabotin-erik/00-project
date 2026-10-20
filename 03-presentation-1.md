@@ -47,4 +47,16 @@ Projektazonosító: 2026-ST-03
 
 1. **Paraméterezés**
 
--
+- Pálya mérete, dobozok/falak elhelyezése, célpont, robotok számának beállítása algoritmus kiválasztása
+
+2. **Szimuláció futtatása**
+
+- Robotok elhelyezése és cselekvés kezdete
+- A szabályok szigorú vizsgálata, büntetőpontok és jutalmak
+- lépésszám jutalmak és a hátra lévő idő folyamatos frissítése/megjelenítése
+
+3. **Adatkinyerés:**
+
+- A feladat sikeres elvégzése, határidő lejártakor szimuláció lezárása
+- Az állapotváltozások, a kommunikácós napló exportálása
+
