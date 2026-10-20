@@ -27,3 +27,17 @@ Projektazonosító: 2026-ST-03
  
 - **Cél:** A feladat elvégzése emberi beavatkozás nélkül.
 - **Képességek:** Környezet feltérképezése, akadályok érzékelése, tárgyak mozgatása és kommunikáció a többi robottal ("szótár").
+
+## Tervezett hatókör
+
+### Benne van 
+
+- 2D-s paraméterezhető pálya generálása
+- Robotok akcióterének(mozgásának) modellezése
+- Kommunikácios csatorna szimulálása
+- Kísérlet eredményeinek exportálása és webes vizualizációja
+
+### Nincs benne
+
+- Valós fizikai robotokal történő tesztelés
+- Kommunikácios csatorna fizikai jeltorzításának, zavarásának szimulálása
