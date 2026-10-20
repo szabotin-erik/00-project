@@ -10,3 +10,7 @@ Témavezető: Storcz Tamás
 Projektazonosító: 2026-ST-03
 
 ## Probléma
+
+- **Fizikai megvalósítás nehézségei:** Ha valós fizikai robotokkal szerettnénk algoritmusokat és MI ágenseket tesztelni az kölcséges és lassú lenne plusz hardveres meghibásodás torzithatja a vizygálat eredményeit
+- **Reprodukálhatóság:** Valós környezetben a fizikai tényezők befolyásolhatják a teszt kimenetelét
+- **Döntéshozatal megfigyelése:** Robotok interakciojának és kommunikációjának kiértékelése
