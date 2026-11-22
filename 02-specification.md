@@ -62,7 +62,7 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 | --- | --- |
 | Szabványos MI API kompatibilitás | A környezet implementálja a Gymnasium (korábban OpenAI Gym) vagy PettingZoo (Multi-Agent) interfészt. |
 | Kliens szerver kommunikáció késleltetése vizuális módban | WebSockets használata esetén a lépésfrissités vizualizációja folyamatos (min.30 fps) |
-| Moduláris kódarchitechtúra | Új felafattípus hozzáadása az alap motor modosítása nélkül (Pl. Összedolgozó robotok helyett versengők legyenek) |
+| Moduláris kódarchitechtúra | Új feladattípus hozzáadása az alap motor modosítása nélkül (Pl. Összedolgozó robotok helyett versengők legyenek) |
 
 ## 7. Nyitott kérdések és kockázatok
 
@@ -70,7 +70,7 @@ A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópu
 | --- | --- | --- |
 | A gépi tanulási algoritmusok betanításí ideje túl hosszú | Befojásolja a kísérlet iterációs sebességét | Egyszerűsített környezet és gyakori jutalmazás használata |
 | A kliens és a tanuló algoritmusok összekötése nehéz lehet | Befolyásolja a teszt stabilitását | A szimuláció és a tanulás is úgyanazon a nyelven működik. A webes felület csak megjelenítí a generált naplófájlokat vagy webSocketen át nézőként csatlakozik |
-| A kommunikációs tér túl nagyra nőhet | Lehetetlenné teszi a robotok tanulását | Korlátozott diszkrét "szótár" előre megadott 4-8 lehetséges üzenet bevezetése a szöveges kommunikáció helyett |
+| A kommunikációs tér túl nagyra nőhet | Lehetetlenné teszi a robotok tanulását | A robotok megadott hatókörön belül tudnak csak egymással kommunikálni a hatókörön belül minden robot megkapja az üzenetet de csak amelyiknek szól az reagál rá |
 
 ## 8. Kezdeti technikai javaslat
 
@@ -82,5 +82,5 @@ A rendszer magja Phyton szimulációs környezet amely a PettingZoo szabványra 
 
 | Kockázat/feltételezés | A korai fázisra tervezett validáció | Tartalék megközelítés |
 | --- | --- | --- |
-| A backend és a frontend közötti kapcsolat túl lassú az MI számára | Szimuláció futása aszinkron módón | Az élő kapcsolat elhagyása, az MI lefut utána álapotot ment és a webes delületen csak lejátsza a történést |
+| A backend és a frontend közötti kapcsolat túl lassú az MI számára | Szimuláció futása aszinkron módón | Az élő kapcsolat elhagyása, az MI lefut utána álapotot ment és a webes felületen csak lejátsza a történést |
 | A robotok nem tanulják meg a kollaboratív feladatmegoldást(pl doboz együtt tolása) | Kisérlet nagyon kis méretű pályán való validálása egyszerű szabályokkal | A feladatok leegyszerüsítése vagy a hagyományos algoritmusok használata tanulás helyett |
