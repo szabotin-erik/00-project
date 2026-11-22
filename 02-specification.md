@@ -9,32 +9,32 @@ project_outline: "[[00-project/01-project-outline.md]]"
 | Szerep | Igény | felelőség/hozzáférés |
 |---|---|---|
 | Kutató/Felhasználó | Kisérletek indítása, robotok viselkedésének kiértékelése | Konfigurálja a pályákat, Tereptárgyak és akadályok elhelyezése, elindítja a tesztelési folyamatot, eredmények letöltése/rendszerezése |
-| Ágens(robot) | Környezet feltérképezése akafályok és tárgyak észlelése, feladatok elvégzése, kommunikáció | Interakció a környezettel és a többi Ágensel és a megadott feladat elvégzése emberi beavatkozás nélkül |
+| Ágens(robot) | Környezet feltérképezése akadályok és tárgyak észlelése, feladatok elvégzése, kommunikáció | Interakció a környezettel és a többi Ágensel és a megadott feladat elvégzése emberi beavatkozás nélkül |
 
 ## 2. Use case-ek / user storyk
 
 ### Szimulációs kísérlet futatása
 
 - **Szereplő:** Kutató/Felhasználó
-- **Előfeltétel:** A kísérlet paramétereinek megadása: Pálya mérete, akadályok és mozgatható tárgyak elhelyezkedése, robotok száma és kommunikácíos hatótávja.
+- **Előfeltétel:** A kísérlet paramétereinek megadása: Pálya mérete, akadályok és mozgatható tárgyak elhelyezkedése, robotok száma és kommunikácíó hatótávja.
 - **Fő folyamat:**
 1. A felhasználó elinditja a szimulációs felületet.
 2. pálya paramétereinek megadása.
 3. A backand legenerálja a pályát a megadott adatok alapján.
 4. A rendszer elhelyezi az autonóm robotokat.
-5. A szimuláció elindul: a robotok érzékelnek kommunikálnak és mozgatnak tárgyakat.
-6. Valós időben megjelennek a lépések.
+5. A szimuláció elindul: a robotok érzékelnek kommunikálnak egymással és mozgatnak tárgyakat.
+6. Valós időben megjelennek a lépések száma.
 7. A rendszer folyamatosan naplózza az álapotot a komunikációt és a jutalmakat.
 8. A feladat elvégzésekor vagy az időkorlát elérésekor befejetődik a szimuláció.
-- **Hibafolyamatok:** Ha egy robot át ptobál haladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
+- **Hibafolyamatok:** Ha egy robot át probál haladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
 - **Utófeltétel:** A kisérleti eredmények (sikeresség, idő/megtett út, kommunikációs napló) eltárolásra kerülnek és exportálhatók.
 
 ## 3. Funkcionális követelmények
 
 | Követelmény | Elfogadási kritérium | Prioritás |
 | --- | --- | --- |
-| A rendszer képes 2D-s pálya generálására | A kezdetben megadott paraméterek alapján generált pálya tartalmat kezdőpontot akadályokat és cél mezőt | Kötelező |
-| Robot akcióterének megadása | A robot képes legyen 4 irányba mozogni az elmozdítható dobozokat eltolni illetve a többi robotnak üzenetet köldeni | kötelező |
+| A rendszer képes 2D-s pálya generálására | A kezdetben megadott paraméterek alapján generált pálya tartalmaz kezdőpontot akadályokat és cél mezőt | Kötelező |
+| Robot akcióterének megadása | A robot képes legyen 4 irányba mozogni az elmozdítható dobozokat eltolni illetve a többi robotnak üzenetet köldeni amenyiben a hatótávón bellül van | kötelező |
 | Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően küldhetnek, fogadhatnak és lehalgathatnak üzeneteket | kötelező |
 | Ütközések és érvénytelen lépések kezelése | A robotok nem lehetnek egyszerre ugyanazon a mezőn, a falakon nem mehetnek keresztül | kötelező |
 | Legalább két algoritmus csatlakoztatása | A rendszer képes  egy tanuláson alapuló és egy klasszikus útkereső robotot futtatni | kötelető |
@@ -54,7 +54,7 @@ Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fonto
 
 ## 5. Felhasználói felület és munkafolyamat
 
-A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópult**, itt álithatja be a kutató/felhasználó a pálya méretét, dobozok számát, robotok számát és az algoritmust. A második a **Szimulációs nézet**, amely megjeleníti a 2D-s pályát illetve a dobozokat és a célt. A nézet oldalsó sávjában látható az idő, lépésszám, elért jutalmak száma.
+A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópult**, itt álithatja be a kutató/felhasználó a pálya méretét, dobozok számát, robotok számát, kómmunikáció hatósugarát és az algoritmust. A második a **Szimulációs nézet**, amely megjeleníti a 2D-s pályát illetve a dobozokat és a célt. A nézet oldalsó sávjában látható az idő, lépésszám, elért jutalmak száma.
 
 ## 6. Nem funkcionális követelmények
 
