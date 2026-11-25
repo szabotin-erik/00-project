@@ -23,7 +23,7 @@ project_outline: "[[00-project/01-project-outline.md]]"
 3. A backand legenerálja a pályát a megadott adatok alapján.
 4. A rendszer elhelyezi az autonóm robotokat.
 5. A szimuláció elindul: a robotok érzékelnek kommunikálnak egymással és mozgatnak tárgyakat.
-6. Valós időben megjelennek a lépések száma.
+6. Megfigyelhető a robotok által megtett táv.
 7. A rendszer folyamatosan naplózza az álapotot a komunikációt és a jutalmakat.
 8. A feladat elvégzésekor vagy az időkorlát elérésekor befejetődik a szimuláció.
 - **Hibafolyamatok:** Ha egy robot át probál haladni a pálya határán vagy nem mozgatható tárgyat probál mozgatni, ilyenkor a poziciolya mozdulatlan marad és büntető pontot kap.
@@ -34,12 +34,13 @@ project_outline: "[[00-project/01-project-outline.md]]"
 | Követelmény | Elfogadási kritérium | Prioritás |
 | --- | --- | --- |
 | A rendszer képes 2D-s pálya generálására | A kezdetben megadott paraméterek alapján generált pálya tartalmaz kezdőpontot akadályokat és cél mezőt | Kötelező |
-| Robot akcióterének megadása | A robot képes legyen 4 irányba mozogni az elmozdítható dobozokat eltolni illetve a többi robotnak üzenetet köldeni amenyiben a hatótávón bellül van | kötelező |
-| Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően küldhetnek, fogadhatnak és lehalgathatnak üzeneteket | kötelező |
-| Ütközések és érvénytelen lépések kezelése | A robotok nem lehetnek egyszerre ugyanazon a mezőn, a falakon nem mehetnek keresztül | kötelező |
+| Robot akcióterének megadása | A robot képes legyen minden irányba mozogni az elmozdítható dobozokat eltolni és elhúzni illetve a többi robotnak üzenetet köldeni amenyiben a hatótávón bellül van ha nincs hatótávon belűl az a robot amelyik megkapja továbíthatja a cél robotnak| kötelező |
+| Kommunikációs csatorna szimulálása | A robotok jogosultságuknak megfelelően hatókörön belül küldhetnek, fogadhatnak és lehalgathatnak üzeneteket | kötelező |
+| Ütközések és érvénytelen lépések kezelése | A robotok nem lehetnek egyszerre ugyanazon a ponton, a falakon nem mehetnek keresztül | kötelező |
 | Legalább két algoritmus csatlakoztatása | A rendszer képes  egy tanuláson alapuló és egy klasszikus útkereső robotot futtatni | kötelető |
 | Kísérleti adatok exportálása | A kisérlet végén a kommunikácios napló és a sikerességi ráta letölthető. | kötelező |
 | Vizuális megjelenítés valós időben | A felhasználó valós időben látja a 2D s pályán a robotokat | Ajánlott |
+| Falak jeltompítása | A robotok által küldött jelek falon ketesztül csökken a hatótávja | Lehetséges |
 
 Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fontos; **Lehetséges** = idő esetén opcionális.
 
@@ -49,12 +50,11 @@ Prioritás: **Kötelező** = a végtermékhez szükséges; **Ajánlott** = fonto
 | --- | --- |
 | Addatok szeparálása tanulás és tesztelés között | Megakadályozza a modellek tultanulását és validálja az általánosítóképességet. |
 | Tér és idő | Az MI modellek számára kezelhető méretű és elrendetésű pálya és elegendő idő a feladatvégzésre |
-| Determinisztikus környezeti átmenetek | Bár a robotok lépései lehetnek véletlenszerüek de egy irányba elmozdulás mindig ugyanazt a fizikai eredményt kell hozza |
 | Hardver komunikációs réteg kihagyása | A feladat központjában a *döntéshozatal* áll nem a hálózatbiztonság vagy a fizikai zavarás |
 
 ## 5. Felhasználói felület és munkafolyamat
 
-A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópult**, itt álithatja be a kutató/felhasználó a pálya méretét, dobozok számát, robotok számát, kómmunikáció hatósugarát és az algoritmust. A második a **Szimulációs nézet**, amely megjeleníti a 2D-s pályát illetve a dobozokat és a célt. A nézet oldalsó sávjában látható az idő, lépésszám, elért jutalmak száma.
+A rendszer kettő fő nézetből áll. Az első a **Konfigurációs Irányitópult**, itt álithatja be a kutató/felhasználó a pálya méretét, dobozok számát, robotok számát, kómmunikáció hatósugarát és az algoritmust. A második a **Szimulációs nézet**, amely megjeleníti a 2D-s pályát illetve a dobozokat és a célt. A nézet oldalsó sávjában látható az idő, megtett út, elért jutalmak száma.
 
 ## 6. Nem funkcionális követelmények
 
